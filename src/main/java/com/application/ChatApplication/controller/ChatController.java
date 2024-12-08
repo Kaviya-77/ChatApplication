@@ -32,9 +32,9 @@ public class ChatController {
 	
 	//who ever visiting the root url we will return the thymeleaf template
 	//anyone visit the localhost:8080/chat it will the particular thymeleaf content
-	@GetMapping("chat")
+	@GetMapping("index")
 	public String chat() {
-		return "chat"; /// name of the thymeleaf template
+		return "index"; /// name of the thymeleaf template
 	}
 	
 
